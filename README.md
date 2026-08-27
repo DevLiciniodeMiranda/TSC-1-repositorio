@@ -7,7 +7,7 @@ Aplicação Web para gerenciamento de rotinas diárias com mecânicas de gamific
 
 ## Sobre o projeto
 
-O UpLife tem como objetivo auxiliar os usuários a criar e manter bons hábitos através de um sistema de recompensas virtuais.
+O NextLevel tem como objetivo auxiliar os usuários a criar e manter bons hábitos através de um sistema de recompensas virtuais.
 A aplicação permitirá registrar rotinas diárias e utilizar esses dados para calcular o progresso do usuário em um formato semelhante a um jogo (RPG).
 
 A partir das informações e check-ins diários registrados, o sistema deverá apresentar:
@@ -260,7 +260,7 @@ Essas decisões deverão ser registradas na documentação do projeto conforme f
 
 ## Responsabilidade sobre as informações
 
-O UpLife tem finalidade exclusivamente educacional. Os dados gerados e a mecânica de pontuação são lúdicos e não refletem avaliações profissionais de saúde mental ou produtividade do usuário.
+O NextLevel tem finalidade exclusivamente educacional. Os dados gerados e a mecânica de pontuação são lúdicos e não refletem avaliações profissionais de saúde mental ou produtividade do usuário.
 
 ## Licença
 

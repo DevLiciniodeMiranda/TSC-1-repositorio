@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>NextLevel - Novo Hábito</title>
+</head>
+<body>
+    <header>
+        <h2>NextLevel</h2>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Voltar ao Painel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3>Forjar Novo Hábito</h3>
+            <p>Defina a sua nova missão diária.</p>
+            
+            <form action="dashboard.html" method="GET">
+                <div>
+                    <label for="nome-habito">Nome da missão:</label>
+                    <input type="text" id="nome-habito" name="nome-habito" placeholder="Ex: Ler 10 páginas" required>
+                </div>
+                <br>
+                <div>
+                    <label for="dificuldade">Nível de dificuldade:</label>
+                    <select id="dificuldade" name="dificuldade">
+                        <option value="facil">Fácil (10 XP)</option>
+                        <option value="medio">Médio (30 XP)</option>
+                        <option value="dificil">Difícil (50 XP)</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Criar Hábito</button>
+                    <button type="reset">Limpar Campos</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

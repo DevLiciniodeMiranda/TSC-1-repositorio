@@ -17,16 +17,32 @@
     <main>
         <section>
             <h3>Forjar Novo Hábito</h3>
-            <p>Defina a sua nova missão diária.</p>
+            <p>Defina a sua jornada e suas missões diárias.</p>
             
             <form action="dashboard.html" method="GET">
                 <div>
-                    <label for="nome-habito">Nome da missão:</label>
-                    <input type="text" id="nome-habito" name="nome-habito" placeholder="Ex: Ler 10 páginas" required>
+                    <label for="foco">Foco da Jornada:</label>
+                    <select id="foco" name="foco">
+                        <option value="estudos">Estudos</option>
+                        <option value="academia">Academia</option>
+                        <option value="nextlevel">Hard (NextLevel)</option>
+                    </select>
                 </div>
                 <br>
                 <div>
-                    <label for="dificuldade">Nível de dificuldade:</label>
+                    <label for="peso">Seu Peso Atual (kg):</label>
+                    <input type="number" id="peso" name="peso" placeholder="Ex: 75" min="30" max="200">
+                    <br>
+                    <small>Necessário para calcular macros de Academia e metas do NextLevel.</small>
+                </div>
+                <br>
+                <div>
+                    <label for="nome-habito">Missão Extra (Opcional):</label>
+                    <input type="text" id="nome-habito" name="nome-habito" placeholder="Ex: Ler 10 páginas">
+                </div>
+                <br>
+                <div>
+                    <label for="dificuldade">Nível de dificuldade (Missão Extra):</label>
                     <select id="dificuldade" name="dificuldade">
                         <option value="facil">Fácil (10 XP)</option>
                         <option value="medio">Médio (30 XP)</option>

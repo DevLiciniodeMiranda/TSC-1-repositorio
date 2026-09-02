@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>NextLevel - Diário de Batalha</title>
+</head>
+<body>
+    <header>
+        <h2>NextLevel</h2>
+        <nav><ul><li><a href="dashboard.html">Voltar ao Painel</a></li></ul></nav>
+    </header>
+    <main>
+        <section>
+            <h3>Histórico de Missões</h3>
+            <ul>
+                <li><strong>Ontem:</strong> Vitória! Todas as missões concluídas. (+150 XP)</li>
+                <li><strong>Terça-feira:</strong> Falha. Faltou a meta de água. (- Ofensiva)</li>
+                <li><strong>Segunda-feira:</strong> Vitória! (+120 XP)</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

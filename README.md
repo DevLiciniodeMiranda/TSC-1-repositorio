@@ -30,7 +30,7 @@ O NextLevel pretende resolver a falta de motivação de curto prazo inserindo me
 Permitir que o usuário registre, gerencie e acompanhe a execução de seus hábitos diários, sendo recompensado visualmente através de pontos de experiência (XP) e níveis.
 O sistema também deverá penalizar inatividades quebrando "ofensivas" (streaks), criando um senso de urgência e consistência.
 
-*O UpLife é uma ferramenta de produtividade pessoal e organização. Seus níveis e pontuações são puramente virtuais e motivacionais.*
+*O NextLevel é uma ferramenta de produtividade pessoal e organização. Seus níveis e pontuações são puramente virtuais e motivacionais.*
 
 ## Principais funcionalidades
 

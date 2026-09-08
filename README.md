@@ -23,14 +23,14 @@ O projeto será desenvolvido de forma incremental ao longo da disciplina Tecnolo
 
 Manter a consistência em novos hábitos (como estudar, ler ou fazer exercícios) é difícil porque a recompensa real costuma ser de longo prazo. 
 À medida que o usuário falha um dia, é comum ocorrer a quebra de ritmo e a desistência, e ferramentas tradicionais de "To-Do List" não oferecem estímulos imediatos para manter o engajamento.
-O UpLife pretende resolver a falta de motivação de curto prazo inserindo mecânicas de jogos no rastreamento de tarefas reais.
+O NextLevel pretende resolver a falta de motivação de curto prazo inserindo mecânicas de jogos no rastreamento de tarefas reais.
 
 ## Objetivo
 
 Permitir que o usuário registre, gerencie e acompanhe a execução de seus hábitos diários, sendo recompensado visualmente através de pontos de experiência (XP) e níveis.
 O sistema também deverá penalizar inatividades quebrando "ofensivas" (streaks), criando um senso de urgência e consistência.
 
-*O UpLife é uma ferramenta de produtividade pessoal e organização. Seus níveis e pontuações são puramente virtuais e motivacionais.*
+*O NextLevel é uma ferramenta de produtividade pessoal e organização. Seus níveis e pontuações são puramente virtuais e motivacionais.*
 
 ## Principais funcionalidades
 

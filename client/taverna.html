@@ -3,24 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>NextLevel - A Taverna</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h2>NextLevel</h2>
-        <nav><ul><li><a href="dashboard.html">Voltar ao Painel</a></li></ul></nav>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Meu Painel</a></li>
+                <li><a href="habitos.html">Gerenciar Hábitos</a></li>
+                <li><a href="perfil.html">Ficha do Personagem</a></li>
+                <li><a href="diario.html">Diário de Batalha</a></li>
+                <li><a href="trofeus.html">Sala de Troféus</a></li>
+                <li><a href="loja.html">O Mercador</a></li>
+                <li><a href="taverna.html" class="ativo">A Taverna</a></li>
+                <li><a href="guilda.html">Guilda</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
             <h3>Ranking Global</h3>
+            <br>
             <ol>
                 <li>JogadorX - Nível 42</li>
                 <li>DevMaster - Nível 38</li>
                 <li><strong>Você - Nível 1</strong></li>
             </ol>
             <br>
+            <h3>Ranking de Guildas</h3>
+            <br>
+            <ol>
+                <li>Dragões do Código - Nível 50</li>
+                <li>Cavaleiros de Java - Nível 45</li>
+                <li><strong>Ordem dos Programadores - Nível 5</strong></li>
+            </ol>
+            <br>
             <h3>Sua Guilda</h3>
-            <p>Você ainda não participa de nenhuma guilda.</p>
-            <button type="button">Criar Guilda</button>
+            <p>Você é membro ativo da <strong>Ordem dos Programadores</strong>.</p>
+            <form action="guilda.html" method="GET">
+                <button type="submit">Entrar no Salão da Guilda</button>
+            </form>
         </section>
     </main>
 </body>

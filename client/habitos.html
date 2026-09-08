@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>NextLevel - Novo Hábito</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h2>NextLevel</h2>
         <nav>
             <ul>
-                <li><a href="dashboard.html">Voltar ao Painel</a></li>
+                <li><a href="dashboard.html">Meu Painel</a></li>
+                <li><a href="habitos.html" class="ativo">Gerenciar Hábitos</a></li>
+                <li><a href="perfil.html">Ficha do Personagem</a></li>
+                <li><a href="diario.html">Diário de Batalha</a></li>
+                <li><a href="trofeus.html">Sala de Troféus</a></li>
+                <li><a href="loja.html">O Mercador</a></li>
+                <li><a href="taverna.html">A Taverna</a></li>
+                <li><a href="guilda.html">Guilda</a></li>
+                <li><a href="index.html">Sair</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <section>
             <h3>Forjar Novo Hábito</h3>
             <p>Defina a sua jornada e suas missões diárias.</p>
-            
             <form action="dashboard.html" method="GET">
                 <div>
                     <label for="foco">Foco da Jornada:</label>
@@ -32,8 +39,7 @@
                 <div>
                     <label for="peso">Seu Peso Atual (kg):</label>
                     <input type="number" id="peso" name="peso" placeholder="Ex: 75" min="30" max="200">
-                    <br>
-                    <small>Necessário para calcular macros de Academia e metas do NextLevel.</small>
+                    <br><small>Necessário para calcular macros de Academia e metas do NextLevel.</small>
                 </div>
                 <br>
                 <div>

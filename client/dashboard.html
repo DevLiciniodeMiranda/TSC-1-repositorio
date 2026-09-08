@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>NextLevel - Meu Painel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h2>NextLevel</h2>
         <nav>
             <ul>
-                <li><a href="dashboard.html">Meu Painel</a></li>
+                <li><a href="dashboard.html" class="ativo">Meu Painel</a></li>
                 <li><a href="habitos.html">Gerenciar Hábitos</a></li>
                 <li><a href="perfil.html">Ficha do Personagem</a></li>
                 <li><a href="diario.html">Diário de Batalha</a></li>
                 <li><a href="trofeus.html">Sala de Troféus</a></li>
                 <li><a href="loja.html">O Mercador</a></li>
                 <li><a href="taverna.html">A Taverna</a></li>
+                <li><a href="guilda.html">Guilda</a></li>
                 <li><a href="index.html">Sair</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <section id="status-perfil">
             <h3>Seu Perfil</h3>
@@ -28,11 +29,11 @@
             <p><strong>Ofensiva:</strong> 0 dias consecutivos 🧊</p>
             <label for="xp-bar">Progresso de XP (0/100):</label>
             <progress id="xp-bar" value="0" max="100">0%</progress>
+            <br><br>
+            <p><em>Continue focado para não perder sua ofensiva!</em></p>
         </section>
-
         <section id="habitos-hoje">
             <h3>Missões de Hoje</h3>
-            
             <article>
                 <p>O seu diário de missões está vazio. É hora de forjar o seu primeiro hábito!</p>
                 <br>
@@ -42,9 +43,5 @@
             </article>
         </section>
     </main>
-
-    <footer>
-        <p>Continue focado para não perder sua ofensiva!</p>
-    </footer>
 </body>
 </html>

@@ -22,23 +22,42 @@
             </ul>
         </nav>
     </header>
-    <main>
+<main>
         <section>
-            <h3>O Mercador (Loja de Recompensas)</h3>
-            <br>
-            <p><strong>Suas Moedas:</strong> 500 🪙</p>
-            <br>
-            <article>
-                <h4>1 Hora de Videogame</h4>
-                <p>Custo: 150 🪙</p>
-                <button type="button">Resgatar</button>
-            </article>
-            <article>
-                <h4>Comer uma Pizza</h4>
-                <p>Custo: 600 🪙</p>
-                <button type="button" disabled>Moedas Insuficientes</button>
-            </article>
+            <h3>O Mercador</h3>
+            <p>Gaste suas moedas de ouro (💰) em equipamentos e poções.</p>
+            
+            <div style="background: #1e293b; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #8b5cf6;">
+                <h4>Seu Saldo: <span id="saldo-ouro" style="color: #fbbf24;">500</span> 💰</h4>
+            </div>
+
+            <!-- Layout em duas colunas usando Flexbox -->
+            <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+                
+                <!-- Coluna 1: A Loja -->
+                <form id="form-loja" style="flex: 1; min-width: 300px;">
+                    <ul id="lista-produtos" style="list-style: none; padding: 0;"></ul>
+                    
+                    <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #334155;">
+                        <h4>Custo Total: <span id="valor-total">0</span> 💰</h4>
+                        <button type="submit" style="margin-top: 10px;">Finalizar Compra</button>
+                    </div>
+                    <div id="mensagem-loja" style="margin-top: 15px; font-weight: bold;"></div>
+                </form>
+
+                <!-- Coluna 2: O Inventário -->
+                <aside style="flex: 1; min-width: 300px; background: #1e293b; padding: 20px; border-radius: 8px; border: 1px solid #334155;">
+                    <h3 style="margin-top: 0;">🎒 Seu Inventário</h3>
+                    <ul id="lista-inventario" style="list-style: none; padding: 0; margin-top: 15px;">
+                        <li id="inventario-vazio" style="color: #94a3b8; font-style: italic; text-align: center;">
+                            Seu inventário está vazio.
+                        </li>
+                    </ul>
+                </aside>
+
+            </div>
         </section>
     </main>
+    <script src="loja.js"></script>
 </body>
 </html>

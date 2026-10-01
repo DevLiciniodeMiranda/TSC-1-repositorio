@@ -22,16 +22,24 @@
             </ul>
         </nav>
     </header>
-    <main>
+<main>
         <section>
-            <h3>Histórico de Missões</h3>
-            <br>
-            <ul>
-                <li><strong>Ontem:</strong> Vitória! Todas as missões concluídas. (+150 XP)</li>
-                <li><strong>Terça-feira:</strong> Falha. Faltou a meta de água. (- Ofensiva)</li>
-                <li><strong>Segunda-feira:</strong> Vitória! (+120 XP)</li>
-            </ul>
+            <h3>Diário de Batalha</h3>
+            <p>Histórico das suas missões e conquistas.</p>
+            
+            <!-- Botões de Filtro -->
+            <div style="margin-bottom: 20px;">
+                <button id="btn-todas">Todas as Missões</button>
+                <button id="btn-concluidas" style="background-color: #22c55e;">Concluídas</button>
+                <button id="btn-pendentes" style="background-color: #f59e0b;">Pendentes</button>
+            </div>
+
+            <!-- Lista Dinâmica -->
+            <ul id="lista-missoes" style="list-style: none; padding: 0;"></ul>
         </section>
-    </main>
+</main>
+
+    <!-- Adicione isto antes de fechar o --> </body>
+    <script src="diario.js"></script>
 </body>
 </html>

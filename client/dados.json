@@ -1,0 +1,14 @@
+{
+  "produtos": [
+    { "id": 1, "nome": "Espada Longa de Aço", "preco": 150, "icone": "🗡️" },
+    { "id": 2, "nome": "Poção de Foco Profundo", "preco": 40, "icone": "🧪" },
+    { "id": 3, "nome": "Armadura da Disciplina", "preco": 300, "icone": "🛡️" },
+    { "id": 4, "nome": "Amuleto do Tempo", "preco": 600, "icone": "⏳" }
+  ],
+  "missoes": [
+    { "id": 1, "titulo": "Derrotar o Bug do CSS", "dificuldade": "Média", "status": "concluida" },
+    { "id": 2, "titulo": "Ler 10 páginas do grimório", "dificuldade": "Fácil", "status": "pendente" },
+    { "id": 3, "titulo": "Treino de Força (Academia)", "dificuldade": "Difícil", "status": "falhada" },
+    { "id": 4, "titulo": "Beber 2L de Poção (Água)", "dificuldade": "Fácil", "status": "concluida" }
+  ]
+}

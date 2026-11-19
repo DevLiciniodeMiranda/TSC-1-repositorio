@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "Derrotar o Bug do CSS",
+    "foco": "estudos",
+    "dificuldade": "medio",
+    "status": "concluida"
+  },
+  {
+    "id": 2,
+    "titulo": "Ler 10 páginas do grimório",
+    "foco": "estudos",
+    "dificuldade": "facil",
+    "status": "concluida"
+  },
+  {
+    "id": 3,
+    "titulo": "Treino de Força (Academia)",
+    "foco": "academia",
+    "dificuldade": "dificil",
+    "status": "pendente"
+  }
+]
